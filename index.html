@@ -236,7 +236,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
     </div>
     <div class="header-actions">
       <button class="btn btn-editor" onclick="openEditor()">Edit Goals</button>
-      <button class="btn btn-export" onclick="openExport()">Share / Export</button>
+      <button class="btn btn-export" onclick="openExport()">Export</button>
       <button class="btn btn-primary" onclick="saveData()">Save Progress</button>
       <button class="btn" onclick="window.print()">Print</button>
     </div>
@@ -348,7 +348,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 <!-- ── EXPORT OVERLAY ── -->
 <div class="overlay" id="exportOverlay">
   <div class="export-modal">
-    <h3>Share &amp; Export</h3>
+    <h3>Export</h3>
     <p>All exports are self-contained HTML files — open in any browser, no installs needed.</p>
     <div class="export-option" onclick="exportBlank()"><div class="eo-icon">📄</div><div><div class="eo-title">Blank Template (for team)</div><div class="eo-desc">Empty tracker — no goals, no progress. Recipient builds their own from scratch. People/tab structure is preserved.</div></div></div>
     <div class="export-option" onclick="exportFull()"><div class="eo-icon">💾</div><div><div class="eo-title">Full Snapshot (all tabs + progress)</div><div class="eo-desc">Exports everything — your goals, all direct reports, current progress and notes baked in.</div></div></div>
